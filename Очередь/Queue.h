@@ -29,7 +29,7 @@ public:
     int Dequeue();
 
     // Добавление элемента.
-    void Enqueue(const int value);
+    void Enqueue(const int value);//
 
     // Проверка существования элементов в очереди.
     bool IsEmpty();

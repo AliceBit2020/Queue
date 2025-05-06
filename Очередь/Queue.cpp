@@ -57,7 +57,7 @@ int Queue::Dequeue()////черга не дозволяє вилучити буд
         {
             m_queue[i] = m_queue[i + 1];//////  m_queue[0]=m_queue[1]     m_queue[1]=m_queue[2] 
         }
-
+        //
         --m_size;
     }
 	

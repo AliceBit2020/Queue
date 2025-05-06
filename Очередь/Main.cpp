@@ -34,7 +34,7 @@ int main()
 		cout << "Remove element from the query " << queue.Dequeue() << endl;
 	}
 
-
+	//
 
     return 0;
 }
