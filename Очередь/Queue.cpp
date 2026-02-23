@@ -64,7 +64,7 @@ int Queue::Dequeue()////черга не дозволяє вилучити буд
     return result;
 }
 
-void Queue::Enqueue(const int value)///////додає новий елемент до черги
+void Queue::Enqueue(const int value)///////додає новий елемент до черги//
 {
 
     //////Збільшити розмір черги
